@@ -1,0 +1,16 @@
+.progress { 
+  width: 400px;
+  height: 50px;
+  background-color: blue; 
+}
+
+.progress div{
+  width: 100px;
+  height: 50px;
+  float: left;
+}
+
+.progress div.on,
+.progress div.answered {
+  background-color:green;
+}
