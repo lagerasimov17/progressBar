@@ -1,5 +1,3 @@
-
-
 var blockNumber = 0;
 var blockNumberString = blockNumber.toString();
 
@@ -14,3 +12,4 @@ function takeClass() {
     ( /(?:^|\s)answered(?!\S)/g , '' );
     blockNumber = blockNumber - 1;
 }
+
