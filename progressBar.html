@@ -3,10 +3,11 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="progressBar.css">
+        <script type="text/javascript" src="progressBar.css"></script>
     </head>
     <body>
-        <div class = "progress"> 
-            <div class = "progressBlock answered"></div>
+        <div class="progress"> 
+            <div class="progressBlock answered" id="0"></div>
             <div class = "progressBlock"></div>
             <div class = "progressBlock"></div>
             <div class = "progressBlock"></div>
@@ -17,7 +18,10 @@
             <div class = "progressBlock"></div>
             <div class = "progressBlock"></div>
         </div>
-        <button> previous question </button>
-        <button> next question </button>
+        
+        <div class = "buttonContainer">
+            <button id = "backButton" onclick="takeClass()"> Back </button>
+            <button id = "nextButton" onclick="addClass()"> Next </button>
+        </div>
     </body>
 </html>

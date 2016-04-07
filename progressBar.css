@@ -1,16 +1,41 @@
-.progress { 
-  width: 500px;
-  height: 50px;
-  background-color: blue; 
+.progress {
+<<<<<<< HEAD
+    margin: 0 auto;
+    margin-top: 15%;
+    width: 500px;
+    height: 50px;
 }
 
-.progressBlock{
-  width: 50px;
-  height: 50px;
-  float: left;
+.progressBlock {
+    width: 46px;
+    height: 46px;
+    float: left;
+    border-style: solid;
+    border-color:black;
+    border-width: 2px;
+    background-color:blue;
 }
 
-.progress div.on,
+.answered {
+    background-color: red;
+}
+
+.buttonContainer {
+    margin: 0 auto;
+    margin-top: 3%;
+    width:200px;
+}
+
+#backButton {
+    float: left;
+}
+
+#nextButton {
+    float: right;
+}
+
+/*.progress div.on,
 .progress div.answered {
-  background-color:green;
-}
+    background-color: green;
+}*/
+
