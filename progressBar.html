@@ -3,25 +3,25 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="progressBar.css">
-        <script type="text/javascript" src="progressBar.css"></script>
+        <script type="text/javascript" src="progressBar.js"></script>
     </head>
     <body>
         <div class="progress"> 
             <div class="progressBlock answered" id="0"></div>
-            <div class = "progressBlock"></div>
-            <div class = "progressBlock"></div>
-            <div class = "progressBlock"></div>
-            <div class = "progressBlock"></div>
-            <div class = "progressBlock"></div>
-            <div class = "progressBlock"></div>
-            <div class = "progressBlock"></div>
-            <div class = "progressBlock"></div>
-            <div class = "progressBlock"></div>
+            <div class="progressBlock" id="1"></div>
+            <div class="progressBlock" id="2"></div>
+            <div class="progressBlock" id="3"></div>
+            <div class="progressBlock" id="4"></div>
+            <div class="progressBlock" id="5"></div>
+            <div class="progressBlock" id="6"></div>
+            <div class="progressBlock" id="7"></div>
+            <div class="progressBlock" id="8"></div>
+            <div class="progressBlock" id="9"></div>
         </div>
         
-        <div class = "buttonContainer">
-            <button id = "backButton" onclick="takeClass()"> Back </button>
-            <button id = "nextButton" onclick="addClass()"> Next </button>
+        <div class="buttonContainer">
+            <button id="backButton" onclick="incrementDown()"> Back </button>
+            <button id="nextButton" onclick="incrementUp()"> Next </button>
         </div>
     </body>
 </html>
