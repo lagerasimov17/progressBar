@@ -13,3 +13,16 @@ function takeClass() {
     blockNumber = blockNumber - 1;
 }
 
+
+
+=======
+/* if the class is "on", then color the block green
+when the next button is pressed, color the next block green 
+*/
+
+function turnOn(){
+    document.getElementById('progress').
+}
+
+
+var questionState = $scope.Questions[]

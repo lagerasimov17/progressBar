@@ -1,0 +1,8 @@
+li {
+    display: inline;
+    color: aquamarine;
+}
+
+li.on {
+    color: rebeccapurple;
+}
