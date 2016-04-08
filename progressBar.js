@@ -19,3 +19,41 @@ function addNextClass() {
 function removeCurrentClass() {
     document.getElementById(blockNumberString).className = document.getElementById(blockNumberString).className.replace 
     ( /(?:^|\s)answered(?!\S)/g , '' );
+<<<<<<< HEAD
+    blockNumber = blockNumber - 1;
+}
+
+
+
+=======
+/* if the class is "on", then color the block green
+when the next button is pressed, color the next block green 
+*/
+
+function turnOn(){
+    document.getElementById('progress').
+}
+
+
+var questionState = $scope.Questions[]
+=======
+}
+
+function incrementUp() {
+    if (blockNumber != 9) {
+        removeCurrentClass();
+        updateBlockUp();
+        addNextClass();
+    }
+}
+
+function incrementDown() {
+    if (blockNumber != 0) {
+        removeCurrentClass();
+        updateBlockDown();
+        addNextClass();
+    }
+}
+
+
+>>>>>>> origin/master
