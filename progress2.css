@@ -1,8 +1,41 @@
-li {
-    display: inline;
-    color: aquamarine;
+
+#container {
+    width: 1000px;
+    height: 60px;
+    border: 1px dashed black;
+    left: calc(50%-20px)
 }
 
-li.on {
-    color: rebeccapurple;
+#container.line {
+    text-align: center;
+    vertical-align: center;
 }
+hr {
+    width:1000px;
+    height:1px;
+    background:blue;
+    top: 30px;
+    position: absolute;
+}
+
+span {
+    height:50px;
+    width:50px;
+    border-radius: 100%;
+    border: 3px solid blue;
+    position: absolute;
+    background: blue;
+    
+}
+
+span.two {
+    left:250px;
+}
+span.three {
+    left: 500px;
+    
+}
+span.four {
+    left:750px
+}
+
